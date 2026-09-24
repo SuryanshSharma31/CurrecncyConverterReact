@@ -1,16 +1,134 @@
-# React + Vite
+# 💱 Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive currency converter built with **React.js**, **Tailwind CSS**, and the **Fawaz Ahmed Currency API**. It allows users to convert amounts between different currencies using exchange-rate data fetched from an API.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 [Currency Converter](https://currecncy-converter-react.vercel.app/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🌍 Convert between multiple currencies
+* 🔄 Swap source and target currencies
+* ⚡ Fetch exchange rates using an API
+* 📱 Responsive user interface
+* 🎨 Styled with Tailwind CSS
+* ♻️ Reusable React components
+* 🪝 Custom React Hook for API data fetching
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React.js**
+* **JavaScript**
+* **Tailwind CSS**
+* **Vite**
+* **Fawaz Ahmed Currency API**
+
+## 📚 Concepts Practiced
+
+* React `useState`
+* React `useEffect`
+* React `useId`
+* Custom Hooks
+* Props & State
+* Controlled Components
+* API Integration
+* `fetch()`
+* Component Reusability
+* Responsive UI
+
+## ⚙️ Run Locally
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+npm install
+npm run dev
+```
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── InputBox.jsx
+│   └── index.js
+├── hooks/
+│   └── useCurrencyInfo.js
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## 👨‍💻 Author
+
+**Suryansh Sharma**
+
+Built as a React.js learning project while practicing **API integration, custom hooks, reusable components, and Tailwind CSS**.
+# 💱 Currency Converter
+
+A responsive currency converter built with **React.js**, **Tailwind CSS**, and the **Fawaz Ahmed Currency API**. It allows users to convert amounts between different currencies using exchange-rate data fetched from an API.
+
+## 🚀 Live Demo
+
+👉 [Currency Converter](https://currecncy-converter-react.vercel.app/)
+
+## ✨ Features
+
+* 🌍 Convert between multiple currencies
+* 🔄 Swap source and target currencies
+* ⚡ Fetch exchange rates using an API
+* 📱 Responsive user interface
+* 🎨 Styled with Tailwind CSS
+* ♻️ Reusable React components
+* 🪝 Custom React Hook for API data fetching
+
+## 🛠️ Tech Stack
+
+* **React.js**
+* **JavaScript**
+* **Tailwind CSS**
+* **Vite**
+* **Fawaz Ahmed Currency API**
+
+## 📚 Concepts Practiced
+
+* React `useState`
+* React `useEffect`
+* React `useId`
+* Custom Hooks
+* Props & State
+* Controlled Components
+* API Integration
+* `fetch()`
+* Component Reusability
+* Responsive UI
+
+## ⚙️ Run Locally
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+npm install
+npm run dev
+```
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── InputBox.jsx
+│   └── index.js
+├── hooks/
+│   └── useCurrencyInfo.js
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## 👨‍💻 Author
+
+**Suryansh Sharma**
+
+Built as a React.js learning project while practicing **API integration, custom hooks, reusable components, and Tailwind CSS**.
